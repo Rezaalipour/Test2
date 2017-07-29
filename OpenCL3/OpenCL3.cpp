@@ -20,6 +20,7 @@ int main()
 	cl_uint ret_num_platforms = 0;
 
 	clGetPlatformIDs(1, &platform_id, &ret_num_platforms);
+
 	printf("Number of Platforms = %d \n", ret_num_platforms);
 	printf("First Platform ID = %d \n", platform_id);
 	printf("\n");
